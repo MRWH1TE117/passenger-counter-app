@@ -1,1 +1,75 @@
+# Passenger Counter
+
+Simple passenger counting web app — a small counter used to track the number of passengers.
+
+## Overview
+
+This is a minimal web application that acts as a passenger counter (a simple tally counter). It provides buttons to increase the passenger count and to save or otherwise persist the current value (implementation depends on the project files). The UI uses a background image (`station.jpg`) with a blurred effect applied via CSS.
+
+## Features
+
+- Increment and decrement (if provided) passenger count via UI buttons.
+- Simple, focused UI implemented with plain HTML, CSS and JavaScript.
+- Background image with optional blur effect (configured in `index.css`).
+- Tiny and easy to adapt for kiosks, demos or small internal tools.
+
+## Files
+
+- `index.html` — main HTML page (entry point).
+- `index.css` — styling; contains the blurred background configuration and button styles.
+- `main.js` or other JS files — app logic (increment, save, etc.).
+- `station.jpg` — background image used by the app.
+
+(If some of these files are missing in this repository, they are expected to be added next to the README.)
+
+## Installation & Run
+
+No build tools required — the app is static. You can run it in two common ways:
+
+1. Open locally:
+
+   - Open `index.html` in a browser (double-click or `File → Open`).
+
+2. Run a local static server (recommended for consistent behavior):
+
+   - Using Python 3 built-in server:
+
+     ```powershell
+     cd path\to\passenger-counter-app
+     python -m http.server 8000
+     # then open http://localhost:8000 in your browser
+     ```
+
+   - Using Node.js `http-server` (if installed):
+
+     ```powershell
+     npx http-server . -p 8000
+     ```
+
+## Configuration & Customization
+
+- Change the background image: replace `station.jpg` with another image (same filename or update `index.css`).
+- Adjust blur strength in `index.css` — look for `filter: blur(...)` inside `body::before`.
+- Add persistence: integrate `localStorage`, a backend API, or a small database depending on your needs.
+
+## Contributing
+
+Contributions are welcome. For small changes, open a branch, make the edits and create a pull request. Mention what you changed and why in the PR description.
+
+## License
+
+You can add a license of your choice (for example, `MIT`). If no license file is present, contact the repository owner to confirm reuse terms.
+
+## Contact
+
+If you need help adapting the app (adding persistence, analytics, or deployment instructions), open an issue or contact the repository owner.
+
+---
+
+Generated README for a small passenger counter web app. If you want, I can:
+
+- translate this README to Polish;
+- add example JavaScript to persist the counter to `localStorage`;
+- add a short demo `index.html` and `main.js` if they are missing.
+
 # passenger-counter-app
