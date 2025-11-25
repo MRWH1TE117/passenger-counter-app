@@ -2,7 +2,8 @@
 
 Simple passenger counting web app — a small counter used to track the number of passengers.
 
-<img width="595" height="659" alt="image" src="https://github.com/user-attachments/assets/48ddf216-8309-4714-9b60-0e9810a30f07" />
+<!-- <img width="595" height="659" alt="image" src="https://github.com/user-attachments/assets/48ddf216-8309-4714-9b60-0e9810a30f07" /> -->
+<img width="669" height="668" alt="{EB61E6BE-3E18-4FC3-9AC2-730B83392242}" src="https://github.com/user-attachments/assets/f966e204-ca35-4138-b8c6-815641dc9e83" />
 
 ## Overview
 
