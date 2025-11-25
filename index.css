@@ -55,3 +55,20 @@ button {
 #reset-btn {
   background: darkblue;
 }
+
+/* Centered container with border and solid background */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  margin: 50px auto;
+  padding: 40px;
+  max-width: 500px;
+  background-color: rgba(255, 255, 255, 0.95);
+  border: 3px solid #333;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
