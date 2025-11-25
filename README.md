@@ -58,18 +58,10 @@ Contributions are welcome. For small changes, open a branch, make the edits and 
 
 ## License
 
-You can add a license of your choice (for example, `MIT`). If no license file is present, contact the repository owner to confirm reuse terms.
+Will be added soon.
 
 ## Contact
 
-If you need help adapting the app (adding persistence, analytics, or deployment instructions), open an issue or contact the repository owner.
+If you need help adapting the app (adding persistence, analytics, or deployment instructions), open an issue or contact me directly.
 
 ---
-
-Generated README for a small passenger counter web app. If you want, I can:
-
-- translate this README to Polish;
-- add example JavaScript to persist the counter to `localStorage`;
-- add a short demo `index.html` and `main.js` if they are missing.
-
-# passenger-counter-app
