@@ -20,7 +20,7 @@ This is a minimal web application that acts as a passenger counter (a simple tal
 
 - `index.html` — main HTML page (entry point).
 - `index.css` — styling; contains the blurred background configuration and button styles.
-- `main.js` or other JS files — app logic (increment, save, etc.).
+- `index.js` - app logic (increment, save, etc.).
 - `station.jpg` — background image used by the app.
 
 (If some of these files are missing in this repository, they are expected to be added next to the README.)
