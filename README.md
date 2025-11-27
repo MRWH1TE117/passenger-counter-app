@@ -9,6 +9,8 @@ Simple passenger counting web app — a small counter used to track the number o
 
 This is a minimal web application that acts as a passenger counter (a simple tally counter). It provides buttons to increase the passenger count and to save or otherwise persist the current value (implementation depends on the project files). The UI uses a background image (`station.jpg`) with a blurred effect applied via CSS.
 
+**This application was built to practice and improve JavaScript skills.**
+
 ## Features
 
 - Increment and decrement (if provided) passenger count via UI buttons.
