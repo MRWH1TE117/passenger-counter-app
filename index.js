@@ -6,14 +6,14 @@ function increment() {
   countEl.innerText = count;
 }
 
-// function decrement() {
-//   if (count > 0) {
-//     count = count - 1;
-//     countEl.innerText = count;
-//   }
-// }
+function decrement() {
+  if (count > 0) {
+    count = count - 1;
+    countEl.innerText = count;
+  }
+}
 
-// function reset() {
-//   countEl.innerText = 0;
-//   count = 0;
-// }
+function reset() {
+  countEl.innerText = 0;
+  count = 0;
+}
